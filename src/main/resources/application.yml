@@ -13,5 +13,8 @@ spring:
       suffix: .html
       prefix: /
 
+deepseek:
+  key: ${DEEPSEEK_KEY}
+
 mybatis:
   mapper-locations: classpath*:mapper/*Mapper.xml
